@@ -1,0 +1,298 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F1F3F6;
+}
+
+#logo {
+    height: 30px;
+    width: 75px;
+    margin-right: 10px; 
+}
+
+#plus {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px; 
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #2874f0;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.container-header__left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+    padding: 2px;  
+    flex-wrap: wrap;  
+}
+
+.container-header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    padding: 2px;    
+    float: right;
+    flex-wrap: wrap;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.container-header__items{
+    margin:10px;
+}
+
+.container-header__wrap{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+input.container-header__items{
+    width: 500px;
+    box-sizing: border-box;
+    padding: 12px;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+}
+
+input.container-header__items:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    height: auto;
+    width: 500px;
+}
+
+img.container-header__items{
+    height: 30px;
+    align-self: center;
+    width: 100px;
+}
+
+button.container-header__items{
+    text-align: center;
+    color:#2874f0;    
+    background-color: white;
+    height: 40px;
+    margin-right: 10px;
+    width: 150px;
+    align-self: center;
+    border: 2px solid #2874f0;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+}
+
+button.container-header__items:hover{
+    width: 160px;
+    height:50px;
+    transition: all 0.5s;
+}
+
+a.container-header__items{
+    color:whitesmoke;
+    align-self: center;
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container-header__wrap_svg_first{
+    position: absolute;
+    top: 27px;
+    right: -4px;
+    transform: rotate(270deg);
+    color: whitesmoke;
+}
+
+.container-header__wrap_svg{
+    position: absolute;
+    top: 25px;
+    right: -10px;
+}
+
+.container-header__wrap_first_svg{
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    color: whitesmoke;
+    background-color: white;
+}
+
+/* Category List */
+#category-list {
+    background-color: white;
+    display: flex;
+}
+
+.space-box-left, .space-box-right {
+    background-color: white;
+    height: 100px;
+    width: 50px;
+}
+
+.space-box-left {
+    margin-left: 20%;
+}
+
+.space-box-right {
+    margin-right: 20%;
+}
+
+.category {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.category-img {
+    height: 80px;
+    width: 70px;
+}
+
+.category-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    justify-content: center;
+}
+
+#deals-title-container{
+    height: 70px;
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 80px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#deals-title{
+    font-size: 30px;
+}
+#timer{
+    margin-left: 15px;
+}
+#timer-icon {
+    margin-left: 20px;
+    font-size: 25px; 
+    color: gray;
+}
+#deals-item
+{
+    height: 260px;
+    width: 75%;
+    margin-top: 2px;
+    margin-left: 80px;
+    background-color: white;
+
+}
+.viewall{
+    color: white;
+    font-size: large;
+    border-color: #2874f0;
+    background-color: #2874f0;
+    height: 40px;
+    width: 120px;
+    margin-left: 40%;
+}
+#books-title-container{
+    height: 70px;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 80px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#books-title{
+    font-size: 30px;
+}
+.deal-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#books-item{
+    height: 260px;
+    width: 90%;
+    margin-top: 2px;
+    margin-left: 80px;
+    background-color: white;
+}
+.deal-item-img
+{
+    height: 120px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deal-item-line1{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+}
+.deal-item-line2{
+    justify-content: center;
+    font-size: 12px;
+    color: green;
+    display: flex;
+}
+.deal-item-line3{
+    justify-content: center;
+    font-size: 12px;
+    color: #aaa;
+    display: flex;
+}
+/* #ad-img{
+    height: 330px;
+    width: 250px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+} */
+#ad-img {
+    position: fixed; /* Fixes the position relative to the viewport */
+    top: 255px;       /* Adjust the vertical position */
+    right: 107px;
+    height: 330px;     /* Adjust the horizontal position */
+    width: 250px;    /* Set width for the ad (optional) */
+    z-index: 1000;   /* Ensures it appears above other elements */
+}
+#books-title{
+    font-size: 22px;
+
+}
+#viewall1{
+    color: white;
+    font-size: large;
+    border-color: #2874f0;
+    background-color: #2874f0;
+    height: 40px;
+    width: 120px;
+
+}
+#ad-Image{
+    height: 100%;
+    width: 100%;
+}
