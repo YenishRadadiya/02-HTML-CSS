@@ -30,19 +30,19 @@ This project is a simple clone of the Flipkart homepage created using HTML and C
 
 ### HTML
 
-<div>: For creating containers and sections.
+div: For creating containers and sections.
 
-<img>: For displaying images like the Flipkart logo and category icons.
+img: For displaying images like the Flipkart logo and category icons.
 
-<input>: For the search bar.
+input: For the search bar.
 
-<button>: For interactive elements like login and view all buttons.
+button: For interactive elements like login and view all buttons.
 
 Semantic Elements:
 
-<span>: Used for inline text styling.
+span: Used for inline text styling.
 
-<a>: Hyperlinks for navigation.
+a: Hyperlinks for navigation.
 
 ### CSS
 
