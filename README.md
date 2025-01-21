@@ -74,5 +74,5 @@ Font Awesome for icons.
 
 Links to Flipkart assets for logos and images.
 
-# Demo:
-https://github.com/YenishRadadiya/02-HTML-CSS/tree/develop
+# Live Demo:
+https://yenishradadiya.github.io/02-HTML-CSS/
